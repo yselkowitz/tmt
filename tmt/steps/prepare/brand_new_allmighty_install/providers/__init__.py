@@ -17,6 +17,7 @@ from tmt.utils import GeneralError, Path, ShellScript
 
 class ArtifactType(enum.Enum):
     RPM = 'rpm'
+    REPOSITORY_FILE = 'repository-file'
     CONTAINER = 'container'
     UNKNOWN = 'unknown'
 
