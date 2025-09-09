@@ -599,7 +599,7 @@ class Try(tmt.utils.Common):
         self._handle_interactive_prompt(
             prompt="directory path",
             context="local change directory",
-            error_message="'{0}' No such file or directory",
+            error_message="'{0}': No such file or directory",
             handler=handler,
         )
 
