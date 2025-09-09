@@ -7,9 +7,15 @@
 tmt-1.57.0
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+
 The :ref:`tmt try</stories/cli/try>` command's interactive session
 now includes a new ``o`` option to switch directories,
 making it easy to select and run a different test or set of tests.
+
+When using the ``become`` option with the ``connect`` provision
+plugin, the reboot command now properly applies ``sudo`` when
+necessary, ensuring correct privilege handling during system
+restarts.
 
 
 tmt-1.56.0
